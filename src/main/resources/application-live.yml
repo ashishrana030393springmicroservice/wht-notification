@@ -1,0 +1,5 @@
+app:
+  main:
+    host: localhost
+    port: 9090
+    url: http://${app.main.host}:${app.main.port}
